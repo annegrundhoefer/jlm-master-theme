@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<!-- Case Studies -->	
-		<section id="caseSingle">
+		<section id="caseSingle" class="class">
 			<div class="row middle-xs no--padding">
 			<?php if (have_posts()): while (have_posts()) : the_post(); 
 
