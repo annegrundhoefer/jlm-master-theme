@@ -38,7 +38,7 @@
 
 							<!-- Logo -->
 							<div class="col-xs-6 col-md-2 col-lg-2">
-								<a href="http://localhost:8888/jlm/wordpress/">
+								<a href="http://www.belfortagency.com/demo/jlm/">
 									<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png">
 								</a>
 							</div>
