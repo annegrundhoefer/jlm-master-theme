@@ -166,7 +166,7 @@ html {
 			background: $secondary;
 		}
 		.bg--gray {
-			background-color: #fafafa;
+			background-color: #efefef;
 			padding: 4em 0em;
 		}
 	    .overlay {
@@ -459,8 +459,14 @@ header {
 							}
 						}
 						i {
+							vertical-align: middle;
+							font-style: normal;
+							font-weight: normal;
+							font-variant: normal;
+							text-transform: none;
+							text-rendering: auto;
+							line-height: 34px;
 							display: block;
-							line-height: 36px;
 							color: $primary;
 							font-size: 22px;
 						}
@@ -1075,7 +1081,7 @@ section {
 	h4 {
 		text-transform: uppercase;
 		color: #929394;
-		margin-top: 10px;
+		margin-top: 1.5em;
 		font-size: 1em;
 		letter-spacing: 2px;
 		margin-bottom: 2em;
@@ -1138,7 +1144,14 @@ section {
 							}
 						}
 						i {
-							display: block;
+							font-style: normal;
+							font-weight: normal;
+							font-variant: normal;
+							text-transform: none;
+							text-rendering: auto;
+							line-height: 1;
+							-webkit-font-smoothing: antialiased;
+							display: inline-block;
 							margin-right: 0px;
 							font-size: 22px;
 						}
@@ -1254,7 +1267,7 @@ form {
 /////////////////////////////////////////////////////////
 #caseSingle {
 	margin-top: 4em;
-	background: #fafafa;
+	background: #efefef;
 	h4 {
 		text-transform: uppercase;
 		color: #fff;

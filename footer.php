@@ -5,7 +5,7 @@
 					<a href="index.php">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png">
 					</a>
-					<h4>Corporate Branding • Print Collateral • Digital • PowerPoint Presentations • Infographics • Iconography</h4>
+					<h4>Corporate Branding • Presentations • Infographics • Iconography</h4>
 				</div>
 			</div>
 			<div class="row center-md center-xs">
@@ -22,6 +22,7 @@
 						<li class="social-icon"><a href="https://twitter.com/jmcbrayer" target="_blank"><i class="ion-social-twitter"></i></a></li>
 						<li class="social-icon"><a href="https://www.instagram.com/jlmgraphicdesign/" target="_blank"><i class="ion-social-instagram"></i></a></li>
 						<li class="social-icon"><a href="https://www.linkedin.com/in/jennifermcbrayer" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+						<li class="social-icon"><a href="https://www.behance.net/jlmgraphicdesign" target="_blank"><i class="fa fa-behance-square"></i></a></li>
 					</ul>
 				</div>
 			</div>

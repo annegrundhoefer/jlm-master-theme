@@ -10,6 +10,7 @@
 		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?>" href="<?php bloginfo('rss2_url'); ?>" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css">
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Lora|Poppins" rel="stylesheet">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hamburgers.min.css" type="text/css">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -60,6 +61,7 @@
 								<li class="social-icon"><a href="https://twitter.com/jmcbrayer" target="_blank"><i class="ion-social-twitter"></i></a></li>
 								<li class="social-icon"><a href="https://www.instagram.com/jlmgraphicdesign/" target="_blank"><i class="ion-social-instagram"></i></a></li>
 								<li class="social-icon"><a href="https://www.linkedin.com/in/jennifermcbrayer" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+								<li class="social-icon"><a href="https://www.behance.net/jlmgraphicdesign" target="_blank"><i class="fa fa-behance-square"></i></a></li>
 							</ul>
 							<!-- End menu -->
 						</div>

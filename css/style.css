@@ -302,7 +302,7 @@ html body {
   html body .bg--secondary {
     background: #27CAD3; }
   html body .bg--gray {
-    background-color: #fafafa;
+    background-color: #efefef;
     padding: 4em 0em; }
   html body .overlay {
     transition: all .2s ease-in-out;
@@ -534,8 +534,14 @@ header {
               .header .menu ul li.social-icon a:hover i {
                 color: #fff; }
             .header .menu ul li.social-icon a i {
+              vertical-align: middle;
+              font-style: normal;
+              font-weight: normal;
+              font-variant: normal;
+              text-transform: none;
+              text-rendering: auto;
+              line-height: 34px;
               display: block;
-              line-height: 36px;
               color: #262729;
               font-size: 22px; }
           .header .menu ul li.social-icon:last-child {
@@ -1026,7 +1032,7 @@ section .row {
   #footer h4 {
     text-transform: uppercase;
     color: #929394;
-    margin-top: 10px;
+    margin-top: 1.5em;
     font-size: 1em;
     letter-spacing: 2px;
     margin-bottom: 2em;
@@ -1077,7 +1083,14 @@ section .row {
             #footer .footer--social ul li.social-icon a:hover i {
               color: #fff; }
           #footer .footer--social ul li.social-icon a i {
-            display: block;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            text-rendering: auto;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            display: inline-block;
             margin-right: 0px;
             font-size: 22px; }
   #footer p {
@@ -1160,7 +1173,7 @@ form .select2-selection {
 /*	Case Studies Page  */
 #caseSingle {
   margin-top: 4em;
-  background: #fafafa; }
+  background: #efefef; }
   #caseSingle h4 {
     text-transform: uppercase;
     color: #fff;

@@ -35,9 +35,8 @@ $images = get_field('image_gallery');
 	</section>
 	<!-- End Case Study Statement -->
 
-<section class="bg--gray portfolio-4">
 
-		<section class="bg--gray image-tiles ">
+		<section class="bg--gray image-tiles portfolio-4">
 		<ul>
 
 	<?php 

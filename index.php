@@ -9,7 +9,7 @@
 			<div class="col-xs-6 col-md-3 no--padding card-tile">
 				<a href="<?php echo get_the_permalink(); ?>">
 					<div class="image-container">
-						<img src="http://placehold.it/1200x750" style="max-width: 100%;">
+						<img src="<?php echo the_post_thumbnail_url(); ?>" style="max-width: 100%;">
 						<div class="hover-contents">
 							<div class="overlay-orange">
 								<div class="rectangle"></div>
