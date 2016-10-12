@@ -10,9 +10,6 @@
 		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?>" href="<?php bloginfo('rss2_url'); ?>" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css">
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
-		<!-- Remove this and implememt with own css -->
-		<link href="<?php bloginfo('template_url'); ?>/css/sass/jonschanges.css" rel="stylesheet" type="text/css">
-		<!-- End remove -->
 		<link href="https://fonts.googleapis.com/css?family=Lora|Poppins" rel="stylesheet">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hamburgers.min.css" type="text/css">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

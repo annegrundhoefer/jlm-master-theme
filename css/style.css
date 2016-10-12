@@ -223,7 +223,8 @@ input[type="search"] {
 /*	Typography	*/
 * {
   font-family: "Poppins", sans-serif;
-  font-family: "Lora", serif; }
+  font-family: "Lora", serif;
+  -webkit-font-smoothing: antialiased; }
 
 html body {
   font-size: 100%;
@@ -1194,7 +1195,7 @@ form .select2-selection {
   #caseSingle .image-container {
     width: 100%;
     overflow: hidden;
-    display: inline-block;
+    display: block;
     position: relative;
     top: 0;
     left: 0;
@@ -1230,10 +1231,8 @@ form .select2-selection {
     #caseSingle .image-container.team-container {
       margin-bottom: 1em;
       cursor: default; }
-  #caseSingle .case-study-height {
-    height: 250px; }
-    #caseSingle .case-study-height.hover {
-      background-color: #262729; }
+  #caseSingle .case-study-height.hover {
+    background-color: #262729; }
   #caseSingle .team-height {
     height: 255px; }
 
@@ -2160,5 +2159,122 @@ p.phase {
       opacity: .8; }
     html body .process--orange .item {
       height: auto; } }
+
+html body #header {
+  position: relative; }
+  html body #header .logo {
+    line-height: 64px;
+    height: 64px; }
+    html body #header .logo a {
+      display: block;
+      line-height: 64px; }
+    html body #header .logo #logoImg {
+      max-height: 48px;
+      width: 236px;
+      display: inline-block; }
+    html body #header .logo .header {
+      width: 100%; }
+  html body #header .menu .menu-toggle {
+    position: absolute !important;
+    top: 0px;
+    right: 16px;
+    padding: 0px;
+    line-height: 72px; }
+
+html body #caseSingle {
+  margin-top: 0px; }
+  html body #caseSingle .case-study-height {
+    min-height: 1px !important; }
+
+html body .card-tile {
+  position: relative; }
+  html body .card-tile:hover .hover-contents {
+    background: rgba(38, 39, 41, 0.9); }
+  html body .card-tile .hover-contents {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #262729;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-out;
+    background: rgba(38, 39, 41, 0); }
+    html body .card-tile .hover-contents .case-study-height {
+      background: transparent !important; }
+
+html body .masthead .fixed-arrow {
+  position: absolute;
+  bottom: -24px;
+  left: 0px; }
+
+html body .portfolio-1 .image-tiles ul li:nth-of-type(2) {
+  display: inline-block;
+  width: 45%;
+  padding: 0px 2.5%; }
+
+html body .portfolio-1 .image-tiles ul li:nth-of-type(3) {
+  display: inline-block;
+  width: 45%;
+  padding: 0px 2.5%; }
+
+html body .portfolio-1 .image-tiles ul li:nth-of-type(4) {
+  display: inline-block;
+  width: 45%;
+  padding: 0px 2.5%; }
+
+html body .portfolio-1 .image-tiles ul li:nth-of-type(5) {
+  display: inline-block;
+  width: 45%;
+  padding: 0px 2.5%; }
+
+html body .portfolio-4 {
+  padding-top: 0px !important; }
+  html body .portfolio-4 .image-tiles {
+    padding-top: 0px; }
+    html body .portfolio-4 .image-tiles ul li:first-child {
+      display: block;
+      padding: 0px;
+      margin-top: 0px; }
+      html body .portfolio-4 .image-tiles ul li:first-child img {
+        width: 100%; }
+
+html body .image-tiles {
+  text-align: center; }
+  html body .image-tiles ul {
+    list-style-type: none;
+    padding: 0px;
+    width: 100%;
+    margin: 0px; }
+  html body .image-tiles li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0px 5%;
+    margin: 5% 0px; }
+    html body .image-tiles li img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      text-align: center;
+      display: inline-block; }
+
+@media all and (max-width: 767px) {
+  html body .header {
+    height: 64px !important; }
+  html body .portfolio-1 .image-tiles ul li {
+    margin: 2.5% auto; }
+    html body .portfolio-1 .image-tiles ul li:nth-of-type(2) {
+      padding: 0px 1%; }
+    html body .portfolio-1 .image-tiles ul li:nth-of-type(3) {
+      padding: 0px 1%; }
+    html body .portfolio-1 .image-tiles ul li:nth-of-type(4) {
+      padding: 0px 1%; }
+    html body .portfolio-1 .image-tiles ul li:nth-of-type(5) {
+      padding: 0px 1%; } }
 
 /*# sourceMappingURL=style.css.map */

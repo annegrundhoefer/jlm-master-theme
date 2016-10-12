@@ -13,8 +13,8 @@
 			$(".sub-menu").hide();
 		});
 
-		if ($('body').hasClass('home')){
-			$('ul li.home-link').addClass('active');
+		if ($("body").hasClass("home")){
+			$("ul li.home-link").addClass("active");
 		}
 
 	});
