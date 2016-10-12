@@ -13,10 +13,13 @@ $images = get_field('image_gallery');
 
 ?>
 
-	<div class="row row__full-height middle-md masthead margin--top" style="background: url('<?php the_post_thumbnail_url(); ?>') center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
-		<div class="fixed-arrow">
-			<div class="circle">
-				<i class="ion-chevron-down"></i>
+	<div class="row">
+		<div class="col-xs-12 no--padding masthead">
+			<img src="<?php echo the_post_thumbnail_url(); ?>" style="max-width: 100%; width: 100%">
+			<div class="fixed-arrow">
+				<div class="circle">
+					<i class="ion-chevron-down"></i>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -33,78 +36,28 @@ $images = get_field('image_gallery');
 	<!-- End Case Study Statement -->
 	<section class="bg--gray">
 
+		<section class="bg--gray image-tiles portfolio-2">
+		<ul>
+
 	<?php 
 
 	if( $images ): ?>
 	 <?php foreach( $images as $key=>$image ) { 
 	 		
-	 		if ($key === 0) { ?>
-	 			
-		 			<div class="row row__full-height noHeight middle-md center-md">
-						<div class="col-xs-12 col-md-11 col-lg-9">
-							<div class="full-height tile img--large" style="background: url('<?php echo $image['sizes']['large']; ?>') center center;  background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; width: 100%;">
-							</div>	
-						</div>
-					</div>
+	 		?>				
+			<li>
+				<img src="<?php echo $image['sizes']['large']; ?>" style="max-width: 100%;">
+			</li>
+					
+			<?php
+			}
+			endif;
 
-		 		<?php } ?>
+			endwhile; ?>
 
-		 		<?php if ($key === 1) { ?>
-		 			<div class="row row__full-height noHeight middle-md center-md">
-						<div class="col-xs-12 col-md-11 col-lg-9">
-							<div class="full-height tile img--large" style="background: url('<?php echo $image['sizes']['large']; ?>') center center;  background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; width: 100%;">
-							</div>	
-						</div>
-					</div>
-
-				<?php } 
-
-				if ($key === 2) { ?>
-					<div class="row row__full-height noHeight middle-md center-md">
-						<div class="col-xs-12 col-md-11 col-lg-9">
-							<div class="full-height tile img--large" style="background: url('<?php echo $image['sizes']['large']; ?>') center center;  background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; width: 100%;">
-							</div>	
-						</div>
-					</div>
-
-				<?php } ?>
-
-				<?php if ($key === 3) { ?>
-		 			<div class="row row__full-height noHeight middle-md center-md">
-						<div class="col-xs-12 col-md-11 col-lg-9">
-							<div class="full-height tile img--large" style="background: url('<?php echo $image['sizes']['large']; ?>') center center;  background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; width: 100%;">
-							</div>	
-						</div>
-					</div>
-
-				<?php } 
-
-				if ($key === 4) { ?>
-					<div class="row row__full-height noHeight middle-md center-md">
-						<div class="col-xs-12 col-md-11 col-lg-9">
-							<div class="full-height tile img--large" style="background: url('<?php echo $image['sizes']['large']; ?>') center center;  background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; width: 100%;">
-							</div>	
-						</div>
-					</div>  
-				<?php } ?>
-
-				<?php if ($key === 5) { ?>
-		 			<div class="row row__full-height noHeight middle-md center-md">
-						<div class="col-xs-12 col-md-11 col-lg-9">
-							<div class="full-height tile img--large" style="background: url('<?php echo $image['sizes']['large']; ?>') center center;  background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; width: 100%;">
-							</div>	
-						</div>
-					</div>
-
-	 		<?php } ?>
-
-
+		</ul>
+	</section>
 			  
-	<? } ?>
-	<?php endif; ?>
-
-
-<?php endwhile; ?>
 
 	<?php else: ?>
 

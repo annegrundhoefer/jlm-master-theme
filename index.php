@@ -6,9 +6,11 @@
 			<?php if (have_posts()): while (have_posts()) : the_post(); 
 
 			?>
-				<div class="col-md-3 col-sm-6 col-xs-12 no--padding">
-					<a href="<?php echo get_the_permalink(); ?>">
-						<div class="image-container" style="background: url('<?php the_post_thumbnail_url('large'); ?>') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
+			<div class="col-xs-6 col-md-3 no--padding card-tile">
+				<a href="<?php echo get_the_permalink(); ?>">
+					<div class="image-container">
+						<img src="http://placehold.it/1200x750" style="max-width: 100%;">
+						<div class="hover-contents">
 							<div class="overlay-orange">
 								<div class="rectangle"></div>
 							</div>
@@ -19,8 +21,11 @@
 								</div>
 							</div>
 						</div>
-					</a>
-				</div>
+					</div>
+				</a>
+			</div>
+
+				
 			<?php endwhile; ?>
 			<?php else: ?>
 			<?php endif; ?>

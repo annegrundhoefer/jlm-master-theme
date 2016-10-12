@@ -15,7 +15,7 @@ get_header(); ?>
 	?>
 
 	<section>
-		<div class="row row__full-height middle-md masthead margin--top" style="background: url('<?php the_post_thumbnail_url(); ?>')center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
+		<div class="row row__full-height middle-md masthead" style="background: url('<?php the_post_thumbnail_url(); ?>')center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
 
 			<div class="col-xs-12 middle-xs case--text">
 				<div class="row row__full-height middle-xs">

@@ -1,0 +1,186 @@
+$primary: #262729;
+
+html {
+	body {
+		#header {
+			position: relative;
+			.logo {
+				line-height: 64px;
+				height: 64px;
+				a {
+					display: block;
+					line-height: 64px;
+				}
+				#logoImg {
+					// width: 236px !important;
+					// height: 45px !important;
+					max-height: 48px;
+					width: 236px;
+					display: inline-block;
+				}
+				.header {
+					width: 100%;
+				}
+			}
+			.menu {
+				.menu-toggle {
+					position: absolute !important;
+					top: 0px;
+					right: 16px;
+					padding: 0px;
+					line-height: 72px;
+				}
+			}
+		}
+		#caseSingle {
+			margin-top: 0px;
+			.case-study-height {
+				min-height: 1px !important;
+			}
+		}
+		.card-tile {
+			position: relative;
+			&:hover {
+				.hover-contents {
+					background: rgba(38,39,41,.9);
+				}
+			}
+			.hover-contents {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				right: 0px;
+				bottom: 0px;
+				width: 100%;
+				height: 100%;
+				background-color: $primary;
+		  		transition: all .2s ease-in-out;
+		  		-webkit-transition: all .2s ease-in-out;
+		  		-moz-transition: all .2s ease-in-out;
+		  		transition: all .2s ease-out;
+		  		background: rgba(38,39,41,0);
+		  		.case-study-height {
+		  			background: transparent !important;
+		  		}
+			}
+		}
+		.masthead {
+			.fixed-arrow {
+				position: absolute;
+				bottom:-24px;
+				left: 0px;
+			}
+		}
+		.portfolio-1 {
+			.image-tiles {
+				ul {
+					li {
+						&:nth-of-type(2) {
+							display: inline-block;
+							width: 45%;
+							padding: 0px 2.5%;
+						}
+						&:nth-of-type(3) {
+							display: inline-block;
+							width: 45%;
+							padding: 0px 2.5%;
+						}
+						&:nth-of-type(4) {
+							display: inline-block;
+							width: 45%;
+							padding: 0px 2.5%;
+						}
+
+						&:nth-of-type(5) {
+							display: inline-block;
+							width: 45%;
+							padding: 0px 2.5%;
+						}
+					}
+				}
+			}
+		}
+		.portfolio-2 {
+			.image-tiles {
+				ul {
+					li {
+
+					}
+				}
+			}
+		}
+		.portfolio-4 {
+			padding-top: 0px !important;
+			.image-tiles {
+				padding-top: 0px;
+				ul {
+					li {
+						&:first-child {
+							display: block;
+							padding: 0px;
+							margin-top: 0px;
+							img {
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+		}
+		.image-tiles {
+			text-align: center;
+			ul {
+				list-style-type: none;
+				padding: 0px;
+				width: 100%;
+				margin: 0px;
+			}
+			li {
+				display: block;
+				width: 100%;
+				text-align: center;
+				padding:0px 5%;
+				margin: 5% 0px;
+				img {
+					max-width: 100%;
+					height: auto;
+					margin: 0 auto;
+					text-align: center;
+					display: inline-block;
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 767px) {
+	html {
+		body {
+			.header {
+				height: 64px !important;
+
+			}
+			.portfolio-1 {
+				.image-tiles {
+					ul {
+						li {
+							margin: 2.5% auto;
+							&:nth-of-type(2) {
+								padding: 0px 1%;
+							}
+							&:nth-of-type(3) {
+								padding: 0px 1%;
+							}
+							&:nth-of-type(4) {
+								padding: 0px 1%;
+							}
+							&:nth-of-type(5) {
+								padding: 0px 1%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
