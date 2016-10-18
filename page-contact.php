@@ -15,17 +15,19 @@ get_header(); ?>
 	?>
 
 	<section>
-		<div class="row row__full-height middle-md masthead" style="background: url('<?php the_post_thumbnail_url(); ?>')center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
-
-			<div class="col-xs-12 middle-xs case--text">
-				<div class="row row__full-height middle-xs">
-					<div class="col-md-6 col-lg-4 col-xs-12 col-sm-9">
+		<div class="row row__full-height masthead--contact masthead bg--primary">
+			<div class="case--text">
+				<div class="row middle-xs start-md center-xs">
+					<div class="col-md-6 col-xs-12">
 						<h4>JLM Graphic Design</h4>
-						<div class="line"></div>
 						<h3><?php echo get_the_content(); ?></h3>
 						<button class="btn btn--form"></i><a href="mailto:jpaul@jlmgraphicdesign.com">Email Us</a></button>
 					</div>
+					<div class="col-md-6 col-xs-10 end-md headshot">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/headshot.png">
+					</div>
 				</div>
+			
 			</div>
 		</div>
 	</section>

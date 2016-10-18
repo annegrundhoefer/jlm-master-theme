@@ -530,6 +530,16 @@ span.hamburger-inner {
     		}
     	}
     }
+    .headshot {
+    	position: relative;
+    	min-height:100vh;
+    	img {
+    		width: 100%;
+    		position: absolute;
+    		bottom: 0px;
+    		right: 0px;
+    	}
+    }
 	$dur : 1s;
 
 	.poly {
@@ -609,6 +619,8 @@ span.hamburger-inner {
 			margin-top: 0em;
 			font-family: $primaryfontmedium;
 			opacity: 0;
+			line-height: 1.53333em;
+			padding-bottom: 0.8em;
 			letter-spacing: 2px;
 			-webkit-animation: half 1s 1 forwards;
 			-moz-animation: half 1s 1 forwards;
@@ -620,15 +632,15 @@ span.hamburger-inner {
 			-o-animation-delay: 0.5s;
 			-ms-animation-delay: 0.5s;
 			animation-delay: 0.5s;
-			&.author {
-				margin: 50px 0px 0px 80px;
+
+			&:after {
+				content: ' ';
+				width: 2em;
+				border-bottom: 3px solid rgba(255,255,255,.4);
+				position: absolute;
+				bottom: 0;
+				left: 0
 			}
-		}
-		.line {
-			margin: 1em 0em;
-			height: 3px;
-			background-color: $primary;
-			max-width: 20%;
 		}
 		h3 {
 			margin-top: 1.5em;
@@ -1270,6 +1282,8 @@ form {
 	background: #efefef;
 	h4 {
 		text-transform: uppercase;
+		position: relative;
+		line-height: 1.3em;
 		color: #fff;
 		font-size: 18px;
 		font-family: $primaryfontmedium;
@@ -1277,7 +1291,7 @@ form {
 		text-align: left;
 		font-weight: 400 !important;
 		&:after {
-			top: 3.66em;
+			bottom: -1em;
 			width: 3em;
 			border-bottom: 2px solid #fff;
 			background-color: #fff;

@@ -587,6 +587,14 @@ span.hamburger-inner {
         line-height: 48px;
         display: inline-block;
         font-size: 20px; }
+  .masthead .headshot {
+    position: relative;
+    min-height: 100vh; }
+    .masthead .headshot img {
+      width: 100%;
+      position: absolute;
+      bottom: 0px;
+      right: 0px; }
   .masthead .poly {
     -webkit-animation: active 1s 1;
     -moz-animation: active 1s 1;
@@ -653,6 +661,8 @@ span.hamburger-inner {
     margin-top: 0em;
     font-family: "Poppins", sans-serif;
     opacity: 0;
+    line-height: 1.53333em;
+    padding-bottom: 0.8em;
     letter-spacing: 2px;
     -webkit-animation: half 1s 1 forwards;
     -moz-animation: half 1s 1 forwards;
@@ -664,13 +674,13 @@ span.hamburger-inner {
     -o-animation-delay: 0.5s;
     -ms-animation-delay: 0.5s;
     animation-delay: 0.5s; }
-    .masthead .case--text h4.author {
-      margin: 50px 0px 0px 80px; }
-  .masthead .case--text .line {
-    margin: 1em 0em;
-    height: 3px;
-    background-color: #262729;
-    max-width: 20%; }
+    .masthead .case--text h4:after {
+      content: ' ';
+      width: 2em;
+      border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+      position: absolute;
+      bottom: 0;
+      left: 0; }
   .masthead .case--text h3 {
     margin-top: 1.5em;
     line-height: 28px; }
@@ -1176,6 +1186,8 @@ form .select2-selection {
   background: #efefef; }
   #caseSingle h4 {
     text-transform: uppercase;
+    position: relative;
+    line-height: 1.3em;
     color: #fff;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
@@ -1183,7 +1195,7 @@ form .select2-selection {
     text-align: left;
     font-weight: 400 !important; }
     #caseSingle h4:after {
-      top: 3.66em;
+      bottom: -1em;
       width: 3em;
       border-bottom: 2px solid #fff;
       background-color: #fff;
@@ -1614,12 +1626,12 @@ p.phase {
 @media all and (min-width: 1024px) and (max-width: 1279px) {
   html body section .row {
     padding: 0px 15px; }
+  html body .masthead--contact {
+    min-height: 0vh !important; }
   html body .show--mobile {
     display: block !important; }
   html body .hide--mobile {
     display: none; }
-  html body .header img {
-    width: 130%; }
   html body .header .menu {
     overflow: hidden; }
     html body .header .menu h2 {
@@ -1662,6 +1674,13 @@ p.phase {
     box-sizing: border-box; }
   html body .masthead svg.slant {
     display: none; }
+  html body .masthead .headshot {
+    min-height: 1px !important;
+    width: 80%; }
+    html body .masthead .headshot img {
+      position: relative;
+      padding-top: 4em;
+      width: 80%; }
   html body .masthead h3 {
     margin: 0px; }
   html body .masthead a {
@@ -1741,6 +1760,12 @@ p.phase {
     background: #fff; }
     html body .hamburger.is-active span.hamburger-inner::before {
       background: #fff; }
+  html body .masthead--contact {
+    min-height: 0vh !important; }
+  html body .card-tile .hover-contents {
+    display: none; }
+  html body .case--text h4 {
+    display: none; }
   html body .bg--gray {
     padding: 2em 0em; }
   html body .no--mobilepadding {
@@ -1753,8 +1778,6 @@ p.phase {
     margin-bottom: 1.33em; }
   html body .header {
     height: auto; }
-    html body .header img {
-      width: 55%; }
     html body .header .menu {
       overflow: hidden;
       line-height: 100%; }
@@ -1828,6 +1851,11 @@ p.phase {
     margin: 0px; }
   html body .masthead a {
     margin: 16px 0px 0px 0px; }
+  html body .masthead .headshot {
+    min-height: 1px !important; }
+    html body .masthead .headshot img {
+      position: relative;
+      padding-top: 4em; }
   html body .masthead .bottom {
     position: absolute;
     bottom: 0px;
@@ -1930,6 +1958,10 @@ p.phase {
     min-height: 55vh; }
   html body .row__full-height.noHeight {
     min-height: 50vh; }
+  html body .card-tile .hover-contents {
+    display: none; }
+  html body .case--text h4 {
+    display: none; }
   html body .hamburger.is-active span.hamburger-inner {
     background: #fff; }
     html body .hamburger.is-active span.hamburger-inner::before {
@@ -2037,6 +2069,11 @@ p.phase {
     margin-top: 1em; }
   html body .masthead .case--text h4.author {
     margin: 40px 0px 20px 80px; }
+  html body .masthead .headshot {
+    min-height: 1px !important; }
+    html body .masthead .headshot img {
+      position: relative;
+      padding-top: 4em; }
   html body #newsletter {
     margin-bottom: 0px; }
     html body #newsletter form input {

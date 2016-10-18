@@ -5,7 +5,7 @@
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' : '; } ?><?php bloginfo('name'); ?></title>
 
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
-		<link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
+		<link href="<?php echo get_template_directory_uri(); ?>/images/oval.png" rel="shortcut icon">
 		<link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?>" href="<?php bloginfo('rss2_url'); ?>" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css">
@@ -33,11 +33,11 @@
 		<!-- Begin header -->
 		<header id ="header">
 			<div class="row header center-xs no--mobilepadding">
-				<div class="col-xs-12 col-sm-12 col-md-10">
+				<div class="col-xs-12 col-sm-12 col-md-11">
 					<div class="row start-xs no--mobilepadding">
 
 						<!-- Logo -->
-						<div class="col-xs-8 col-md-3 col-lg-3 middle-xs logo">
+						<div class="col-xs-3 col-md-3 col-lg-3 middle-xs logo">
 							<a href="http://www.belfortagency.com/demo/jlm/">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" id="logoImg">
 							</a>

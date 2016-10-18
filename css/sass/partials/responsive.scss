@@ -90,6 +90,9 @@ $footerbg: $secondary;
 					padding: 0px 15px;
 				}
 			}
+			.masthead--contact {
+				min-height: 0vh !important;
+			}
 			.show--mobile {
 				display: block !important;
 			}
@@ -97,9 +100,6 @@ $footerbg: $secondary;
 				display: none;
 			}
 			.header {
-				img {
-					width: 130%;
-				}
 				.menu {
 					overflow: hidden;
 					h2 {
@@ -152,6 +152,15 @@ $footerbg: $secondary;
 			.masthead {
 				svg.slant {
 					display: none;
+				}
+				.headshot {
+					min-height:1px !important;
+					width: 80%;
+					img {
+						position: relative;
+						padding-top: 4em;
+						width: 80%;
+					}
 				}
 				h3 {
 					margin: 0px;
@@ -279,6 +288,19 @@ $footerbg: $secondary;
 					}
 				}
 			}
+			.masthead--contact {
+				min-height: 0vh !important;
+			}
+			.card-tile {
+				.hover-contents {
+					display: none;
+				}
+			}
+			.case--text {
+				h4 {
+					display:none;
+				}
+			}
 			.bg--gray {
 				padding: 2em 0em;
 			}
@@ -296,9 +318,6 @@ $footerbg: $secondary;
 			}
 			.header {
 				height: auto;
-				img {
-					width: 55%;
-				}
 				.menu {
 					overflow: hidden;
 					line-height: 100%;
@@ -391,6 +410,13 @@ $footerbg: $secondary;
 				}
 				a {
 					margin: 16px 0px 0px 0px;
+				}
+				.headshot {
+					min-height:1px !important;
+					img {
+						position: relative;
+						padding-top: 4em;
+					}
 				}
 				.bottom {
 					position: absolute;
@@ -562,6 +588,16 @@ $footerbg: $secondary;
 					min-height: 50vh;
 				}
 			}
+			.card-tile {
+				.hover-contents {
+					display: none;
+				}
+			}
+			.case--text {
+				h4 {
+					display:none;
+				}
+			}
 			.hamburger {
 				&.is-active {
 					span {
@@ -708,6 +744,13 @@ $footerbg: $secondary;
 					}
 					h4.author {
 						margin: 40px 0px 20px 80px;
+					}
+				}
+				.headshot {
+					min-height:1px !important;
+					img {
+						position: relative;
+						padding-top: 4em;
 					}
 				}
 			}
