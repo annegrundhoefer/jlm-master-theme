@@ -37,7 +37,7 @@
 					<div class="row start-xs no--mobilepadding">
 
 						<!-- Logo -->
-						<div class="col-xs-3 col-md-3 col-lg-3 middle-xs logo">
+						<div class="col-xs-6 col-md-3 col-lg-3 middle-xs logo">
 							<a href="http://www.belfortagency.com/demo/jlm/">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" id="logoImg">
 							</a>
