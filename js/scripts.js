@@ -14,7 +14,7 @@
 		});
 
 		if ($("body").hasClass("home")){
-			$("ul li.home-link").addClass("active");
+			$("ul li.home-link").addClass("is-active");
 		}
 
 	});
