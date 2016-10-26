@@ -162,6 +162,9 @@ html {
 		.bg--primary {
 			background: $primary;
 		}
+		.bg--black {
+			background: #000;
+		}
 		.bg--secondary {
 			background: $secondary;
 		}
@@ -246,9 +249,9 @@ html {
 		border-radius: 2px;
 		&:hover {
 			background: $primary;
+			border: 1px solid #fff;
 			color: #fff;
 			transition: all .2s ease-in-out;
-			border: 1px solid $primary;
 		}
 	}
 	&.btn--secondary {
@@ -1716,7 +1719,7 @@ p.phase {
 		&:hover {
 			color: $secondary;
 			background: #fff;
-			border: 1px solid $primary;
+			border: 1px solid #fff;
 		}
 	}
 }

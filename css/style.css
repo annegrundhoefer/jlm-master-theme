@@ -299,6 +299,8 @@ html body {
     margin-bottom: 0px; }
   html body .bg--primary {
     background: #262729; }
+  html body .bg--black {
+    background: #000; }
   html body .bg--secondary {
     background: #27CAD3; }
   html body .bg--gray {
@@ -368,9 +370,9 @@ html body {
     border-radius: 2px; }
     .btn.btn--form:hover {
       background: #262729;
+      border: 1px solid #fff;
       color: #fff;
-      transition: all .2s ease-in-out;
-      border: 1px solid #262729; }
+      transition: all .2s ease-in-out; }
   .btn.btn--secondary {
     background: #27CAD3; }
     .btn.btn--secondary:hover {
@@ -1528,7 +1530,7 @@ p.phase {
   #contact .btn.btn--form:hover {
     color: #27CAD3;
     background: #fff;
-    border: 1px solid #262729; }
+    border: 1px solid #fff; }
 
 /*	Careers  */
 #careers ul {
@@ -2262,22 +2264,32 @@ html body .masthead .fixed-arrow {
   bottom: -24px;
   left: 0px; }
 
-html body .portfolio-1 .image-tiles ul li:nth-of-type(2) {
+html body .portfolio-1.image-tiles ul li:nth-of-type(2) {
   display: inline-block;
   width: 45%;
   padding: 0px 2.5%; }
 
-html body .portfolio-1 .image-tiles ul li:nth-of-type(3) {
+html body .portfolio-1.image-tiles ul li:nth-of-type(3) {
   display: inline-block;
   width: 45%;
   padding: 0px 2.5%; }
 
-html body .portfolio-1 .image-tiles ul li:nth-of-type(4) {
+html body .portfolio-1.image-tiles ul li:nth-of-type(4) {
   display: inline-block;
   width: 45%;
   padding: 0px 2.5%; }
 
-html body .portfolio-1 .image-tiles ul li:nth-of-type(5) {
+html body .portfolio-1.image-tiles ul li:nth-of-type(5) {
+  display: inline-block;
+  width: 45%;
+  padding: 0px 2.5%; }
+
+html body .portfolio-5.image-tiles ul li:nth-of-type(3) {
+  display: inline-block;
+  width: 45%;
+  padding: 0px 2.5%; }
+
+html body .portfolio-5.image-tiles ul li:nth-of-type(4) {
   display: inline-block;
   width: 45%;
   padding: 0px 2.5%; }

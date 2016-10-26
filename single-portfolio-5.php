@@ -1,6 +1,6 @@
 <?php
 /*
-Post Template - Name: Signage
+Post Template - Name: Brochure
 */
 
 get_header();
@@ -35,7 +35,7 @@ $images = get_field('image_gallery');
 	</section>
 	<!-- End Case Study Statement -->
 
-	<section class="bg--gray image-tiles portfolio-1">
+	<section class="bg--gray image-tiles portfolio-5">
 		<ul>
 
 	<?php 

@@ -1,6 +1,6 @@
 <?php
 /*
-Post Template - Name: Signage
+Post Template - Name:  PowerPoint
 */
 
 get_header();
@@ -23,7 +23,7 @@ $images = get_field('image_gallery');
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- Case Study Statement -->
 	<section>
 		<div class="row center-xs middle-xs">
@@ -34,8 +34,9 @@ $images = get_field('image_gallery');
 		</div>
 	</section>
 	<!-- End Case Study Statement -->
+	<section class="bg--gray">
 
-	<section class="bg--gray image-tiles portfolio-1">
+		<section class="bg--gray image-tiles portfolio-2">
 		<ul>
 
 	<?php 
@@ -54,11 +55,15 @@ $images = get_field('image_gallery');
 
 			endwhile; ?>
 
-</ul>
-</section>
+		</ul>
+	</section>
+			  
+
 	<?php else: ?>
 
 
 	<?php endif; ?>
+
+	</section>
 
 <?php get_footer(); ?>

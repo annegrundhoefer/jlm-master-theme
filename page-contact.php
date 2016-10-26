@@ -15,7 +15,7 @@ get_header(); ?>
 	?>
 
 	<section>
-		<div class="row row__full-height masthead--contact masthead bg--primary">
+		<div class="row row__full-height masthead--contact masthead bg--black">
 			<div class="case--text">
 				<div class="row middle-xs start-md center-xs">
 					<div class="col-md-6 col-xs-12">
